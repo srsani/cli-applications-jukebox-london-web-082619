@@ -63,7 +63,7 @@ def run()
   # say_hello (users_name)
   help()
   $exit_program= true
-  while exit_program
+  while $exit_program
     puts "Please enter a command:"
     user_input = gets.chomp
     if user_input == "help"
