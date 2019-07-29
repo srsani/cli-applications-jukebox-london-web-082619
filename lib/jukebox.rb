@@ -54,6 +54,7 @@ end
 
 def exit_jukebox
   puts "Goodbye"
+  $exit_program = false
 end
 
 def run()
@@ -61,7 +62,7 @@ def run()
   users_name = gets.chomp
   say_hello (users_name)
   help()
-  exit_program= true
+  $exit_program= true
   while exit_program
     puts "Please enter a command:"
     user_input = gets.chomp
