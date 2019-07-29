@@ -58,9 +58,9 @@ def exit_jukebox
 end
 
 def run()
-  puts "Enter your name:"
-  users_name = gets.chomp
-  say_hello (users_name)
+  # puts "Enter your name:"
+  # users_name = gets.chomp
+  # say_hello (users_name)
   help()
   $exit_program= true
   while exit_program
