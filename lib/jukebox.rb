@@ -57,7 +57,7 @@ def exit_jukebox
   $exit_program = false
 end
 
-def run()
+def run(songs)
   # puts "Enter your name:"
   # users_name = gets.chomp
   # say_hello (users_name)
