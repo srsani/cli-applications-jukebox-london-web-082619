@@ -77,4 +77,4 @@ def run()
     end
   end
 end
-paly(songs)
+run
