@@ -31,7 +31,7 @@ def list(songs)
   end  
 end
 
-def paly(songs)
+def play(songs)
   song_list_number = []
   song_hash = {}
   j = 1
