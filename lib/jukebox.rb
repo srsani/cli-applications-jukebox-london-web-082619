@@ -70,7 +70,6 @@ def run()
       help()
     elsif user_input == "exit"
       exit_jukebox
-      exit_program = true
     end
   end
 end
